@@ -1,6 +1,5 @@
-@Smoke
-Feature: Test REST API 
-@CreateUser
+@Smoke @CreateUser
+Feature: Create User 
 Scenario: Test REST API 
 	Given the baseuri 
 	When the endpoint is set to "api/users" 

@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
  */
 @CucumberOptions(plugin = {"html:target/cucumber-reports/cucumber-html.html","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml"}
 , monochrome = true, features = "src/test/resources/feature/One", glue = {
-				"restapi.reqres.StepDef" }, tags = "@REST", publish = true)
+				"restapi.reqres.StepDef" }, tags = "@Smoke", publish = true)
 public class Parallel02IT {
 	
 }

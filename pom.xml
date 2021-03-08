@@ -151,9 +151,11 @@
 							<goal>test</goal>
 						</goals>
 						<configuration>
+							<threadCount>${parallel.threads}</threadCount>
 							<forkCount>${fork.count}</forkCount>
 							<reuseForks>true</reuseForks>
 							<useUnlimitedThreads>true</useUnlimitedThreads>
+							<argLine>-Dcucumber.options="--tags @E2E"</argLine>
 							<includes>
 								<!-- <include>**/TestRunner*.java</include> -->
 								<include>**/Parallel*IT.class</include>

@@ -1,6 +1,5 @@
-@Smoke
+@Smoke @Register @Login
 Feature: Register User Account
-@Register @Login
 Scenario Outline: Register Users
 	Given the baseuri 
 	When the endpoint is set to "api/register" 
