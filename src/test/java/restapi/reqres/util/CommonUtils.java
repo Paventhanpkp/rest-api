@@ -60,8 +60,8 @@ public class CommonUtils {
 	
 	public static void main(String[] args) {
 		try {
-			getProperty(RestRequest.class,"uri");
-		} catch (IOException e) {
+			System.out.println(EncodeText("cityslicka"));
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
