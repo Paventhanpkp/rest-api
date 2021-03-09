@@ -9,7 +9,7 @@ Endpoint covered :
 	GET		/api/users/2
 
 Tags:<br>
-	<i>@Smoke<default></i>		-	Executes all the endpoint testcases <br>
+	<i>@Smoke <sup>default</sup></i>		-	Executes all the endpoint testcases <br>
 	@E2E				-	will execute Register->login->create user->retrieve scenario<br>
 	@Register			-	will execute Register->Login scenario<br>
 	@CreateUser			-	will execute create user->retrieve scenario<br>
