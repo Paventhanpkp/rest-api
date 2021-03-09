@@ -23,7 +23,7 @@ Parallel Execution - Sure fired forked VM execution
 		Note:	
 			facing issue with temyers/cucumber-jvm-parallel-plugin, which is still using old version of cucumber-junit dependency 'info-cukes' and hence facing 'cucumber.api.junit does not exist' issue. As a work around manually created multiple parallelTest classes file and triggered parallel execution.
 			
-execute the project with mvn goals 'clean verify' Example: <b>mvn clean verify -DTestEnv="DIT" -Dlog4j.configurationFile="file:log4j2.xml"</b>
+execute the project with mvn goals 'clean verify'<br>Example: <b>mvn clean verify -DTestEnv="DIT" -Dlog4j.configurationFile="file:log4j2.xml"</b>
 
 
 			
