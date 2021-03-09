@@ -14,7 +14,7 @@ Tags:<br>
 	@Register			-	will execute Register->Login scenario<br>
 	@CreateUser			-	will execute create user->retrieve scenario<br>
 	
-pass the -DTestEnv vm argument with environment name DIT/SIT this will load the corresponding property file to load the corresponding environment properties
+Also, pass the -DTestEnv vm argument with environment name DIT/SIT this will load the corresponding property file based one environment.
 
 Custom Reporting - Cucumber-JVM (maven-cucumber-reporting) has been used
 
